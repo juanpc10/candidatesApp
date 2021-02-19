@@ -14,7 +14,7 @@ Run `bundle install` in the general folder.
 Install dependencies
 `bundle install google_drive`
 
-Change APIkey and APIsecret as needed.
+Change the APIkey and the APIsecret as needed.
 
 The app checks for new entries in two ways.
 
