@@ -1,0 +1,26 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+       
+        <h1>Contact New Candidates Now!</h1>
+        <p>Add new candidates and check how they will be contacted</p>
+        <a href="https://docs.google.com/spreadsheets/d/1xkofJa5iI3AQE4yWEoHqMTQ1QQ-VDsfUDDwV96QQDVM/edit?usp=sharing">Candidates spreadsheet </a>
+        <p>Candidates will receive an email or call</p>
+        <p>Click the button to contact new candidates</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <% if defined? error_message %>
+          <p class="bg-danger"><%= error_message %></p>
+        <% end %>
+        <form action="/" method="POST">
+          <button type="submit" class="btn btn-primary">Check</button>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
